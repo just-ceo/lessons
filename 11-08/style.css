@@ -2,4 +2,104 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+.con{
+    display: flex;
+}
+.a-interface{
+    background-image: url('./img/back-desktop.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 170px;
+}
+/* navbar start */
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 98vw;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+.navbar{
+    display: flex;
+    gap: 8vw;
+    margin-top: 16px;
+    margin-left: 8vw;
+}
+.navbar-i{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* navbar end */
+/* home start */
+.home{
+    display: flex;
+    flex-direction: row;
+}
+.home-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+    gap: 73px;
+    margin-left: 5vw;
+}
+.home-left-title{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    width: 20vw;
+    line-height: 68px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.home-left-button [type="button"]{
+    background: transparent;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50px;
+    width: 26vw;
+    height: 75px;
+    font-size: 29px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.home-left-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+}
+.home-left-text{
+    text-align: center;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 24px;
+    width: 28vw;
+    color: white;
+}
+.home-right{
+    width: 55vw;
+}
+.home-right [src="./img/phone.png"]{
+    position: absolute;
+    right: 0px;
+    width: 81vw;
+    top: 251px;
+}
+.home-right [src="./img/screen.png"]{
+    width: 17.9vw;
+    position: absolute;
+    right: 276px;
+    top: 320px;
+}
+/* home end */
