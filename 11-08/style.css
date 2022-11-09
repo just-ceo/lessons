@@ -6,12 +6,13 @@
 }
 .con{
     display: flex;
+    flex-direction: column;
 }
 .a-interface{
     background-image: url('./img/back-desktop.png');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 98.9vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -103,3 +104,17 @@
     top: 320px;
 }
 /* home end */
+/* b-interface start */
+.b-interface{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.b-interface-title{
+    width: 55vw;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 68px;
+}
+/* b-interface end */
