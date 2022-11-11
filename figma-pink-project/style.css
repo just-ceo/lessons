@@ -110,11 +110,26 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 72px;
+    margin-top: 77px;
 }
 .b-interface-title{
     width: 55vw;
     font-weight: 300;
     font-size: 50px;
     line-height: 68px;
+}
+.b-interface-ipones{
+    display: flex;
+    flex-direction: row;
+    width: 98vw;
+    justify-content: space-around;
+    background-image: url('./img/grey\ background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.b-interface-ipones-a [src="./img/iphone screen-1.png"]{
+    position: absolute;
+    left: 20vw;
 }
 /* b-interface end */
